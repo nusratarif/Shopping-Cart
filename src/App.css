@@ -1,38 +1,210 @@
-.App {
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.productContainer > .link {
+  width: 300px;
+  box-shadow: 0 0 10px hsl(212, 94%, 51%);
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.productContainer > .link:hover { 
+  box-shadow: 0 0 10px rgb(248, 13, 236);
+}
+.bt {
+  position: relative;
+  width: 100%;
+  background-color: rgb(248, 188, 245);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.productContainer > .link:hover .bt {
+  bottom: 1px;
+  opacity: 1;
+  padding: 10px;
+}
+#product {
+  margin:auto;
+  width:400px;
+  height:400px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px hsl(212, 94%, 51%);
+
+}
+#product:hover {
+  box-shadow: 0 0 10px rgb(248, 13, 236);
+}
+ .item {
+  position: relative;
+  width: 100%;
+  background-color: rgb(248, 188, 245);
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  padding:10px;
+  bottom: 20px;
+ }
+
+.homepage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.homepage > :link {
+  box-shadow: 0 0 10px hsl(212, 94%, 51%);
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 40px;
+  text-decoration: none;
+  border-radius: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img:hover {
+  background-color: blue;
+  border-radius: 10%;
+}
+.product {
+  width: 500px;
+  box-shadow: 0 0 10px hsl(212, 94%, 51%);
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.product > a {
+  width:500px;
+  height:40px;
+  font-size: large;
+  color:rgb(1, 7, 24);
+  background-color: rgb(156, 179, 247);
+  cursor: pointer;
+}
+.msg{
+  font-size: large;
+  font-weight: bold;
+  padding: 100px;
+}
+
+#msgContainer {
+  position: fixed;
+  bottom: 2px;
+  right:0;
+  display:flex;
+  width: 200px;
+  height: 25px;
+  background-color: royalblue;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+  display: none;
+  
+}
+#line {
+  position: fixed;
+  bottom:0;
+  right:0;
+  width:0px;
+  height:0.5rem;
+  background-color: rgb(9, 5, 252);
+  transition: width 1s ease-in-out;
+  
+}
+.del {
+  cursor: pointer;
+}
+
+.shoppingList {
+  display: flex;
+  position:center;
+  width:50%;
+  height:5%;
+  margin: 0 auto;
+  padding: 2%;
+  border: 1px;
+  border-radius: .5rem;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.qty-Container {
+
+  height:30;
+  padding:2;
+  border-radius: .25rem;
+}
+
+.emptyCart {
+  width:50%;
+  margin:0 auto;
+  padding:3%;
+  border: 1px;
+  border-radius: .5rem;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+  font-size:xx-large;
+}
+
+.chkoutButton {
+  position:'relative';
+  width: 40%;
+  height:50px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: .25rem;
+  background-color: royalblue;
+  color:black;
+  font-size:large;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color:royalblue;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 0 10px hsl(212, 94%, 51%);
+  margin-top:60px;
+  text-align: left;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.linkContainer {
+  position: relative;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  width:60px;
+  display:flex;
+  flex-direction: column;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.linkContainer > :link {
+  text-decoration: none;
+  padding: 5px;
+  width:auto;
+  color: black;
+  text-align: center;
+  
+}
+.linkContainer > :link:hover {
+  background-color: white;
+  border-radius: 10px;
+  
 }

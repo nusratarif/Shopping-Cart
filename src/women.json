@@ -1,0 +1,72 @@
+{
+    "W1":{
+    "id":"W1",
+    "price":"2000",
+    "name": "Embroidered Marina Dress with Marina Shawl Dupatta",
+    "url": "https://shoprex.com/images/srproducts/large/embroidered-marina-dress-with-marina-shawl-dupatta_43909.jpg",
+    "inCart": false
+    },
+    "W2": {
+        "id":"W2",
+    "price":"3000",
+    "name": "Stitched Linen Suits Collection",
+    "url": "https://shoprex.com/images/srproducts/large/stitched-linen-suits-collection-2020-21_43904.jpg",
+    "inCart": false
+    },
+    "W3": {
+        "id":"W3",
+    "price": "2500",
+    "name": "Embroidered Net Bridal Maxi Dress",
+    "url": "https://shoprex.com/images/srproducts/large/handwork-heavy-embroidered-net-bridal-maxi-dress_43455.jpg",
+    "inCart": false
+    },
+    "W4": {
+        "id":"W4",
+    "price": "4000",
+    "name": "Embroidered Chiffon Maxi",
+    "url": "https://shoprex.com/images/srproducts/large/indian-embroidered-chiffon-maxi-suit_43734.jpg",
+    "inCart": false
+    },
+    "W5": {
+        "id":"W5",
+    "price": "4000",
+    "name": "Bridal sandle",
+    "url": "https://cdn-images-fishry.azureedge.net/product/FN431123--3--9009dd8-stylo.jpg/xs",
+    "inCart": false
+    },
+    "W6": {
+        "id":"W6",
+    "price": "4000",
+    "name": "Winter court shoe",
+    "url": "https://cdn-images-fishry.azureedge.net/product/WN710001--1--339a3e1-stylo.jpg/xs",
+    "inCart": false
+    },
+    "W7": {
+        "id":"W7",
+    "price": "4000",
+    "name": "Bracelet Watch",
+    "url": "https://easytoshop.pk/wp-content/uploads/2018/04/Cheap-Woman-Wrist-Watch-And-Bracelet-Set-1-600x600.jpg",
+    "inCart": false
+    },
+    "W8": {
+        "id":"W8",
+    "price": "4000",
+    "name": "Necklace",
+    "url": "https://m5.paperblog.com/i/127/1274467/casual-jewellery-you-must-have-for-various-oc-L-U_oMjQ.jpeg",
+    "inCart": false
+    },
+    "W9": {
+        "id":"W9",
+    "price": "4000",
+    "name": "Earrings",
+    "url": "https://i.pinimg.com/564x/24/06/4d/24064d78ae344fa787982d725051acea.jpg",
+    "inCart": false
+    },
+    "W10": {
+        "id":"W10",
+    "price": "4000",
+    "name": "Silver ring",
+    "url": "https://images-na.ssl-images-amazon.com/images/I/71K6LxHCS7L._AC_UY395_.jpg",
+    "inCart": false
+    }
+}
